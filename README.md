@@ -39,12 +39,12 @@ Key Objectives
    pip install requirements.txt
    ```
 
-4. API key setup for Application:
-   ```sh
-   touch .env
-   paste your API key in .env file as AUTH_TOKEN='API_KEY'
-   touch .gitignore
-   add .env in the file to secure the API key
+5. API key setup for Application:
+  
+    ```sh touch .env ```
+   paste your API key in ```plaintext.env``` file as ```plaintext AUTH_TOKEN='API_KEY'```
+    ```sh touch .gitignore ```
+   add ```plaintext .env``` in the file to secure the API key
    To test the API key, follow below mentioned steps
    ```
 
