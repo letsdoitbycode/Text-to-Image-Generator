@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Generator</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Text-to-Image Generator Application</h1>
+        <hr>
+        <p class="tagline">Create stunning images from your prompts and bring your ideas to life with just a few clicks!</p>
+    </header>
+    <main>
+        <label for="prompt">Enter a prompt:</label>
+        <input type="text" id="prompt" placeholder="Enter your prompt here">
+        <button onclick="generateImage()">Generate Image</button>
+        
+        <div class="image-container" id="image-container">
+            <div class="loader" id="loader"></div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 letsdoitbycode. All rights reserved.</p>
+    </footer>
+
+    <script src="/static/js/app.js"></script>
+</body>
+</html>

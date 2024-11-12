@@ -1,0 +1,7 @@
+flask 
+torch 
+diffusers 
+transformers 
+accelerate
+gunicorn
+python-dotenv
